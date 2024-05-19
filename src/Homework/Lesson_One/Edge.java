@@ -8,16 +8,12 @@ public class Edge {
     public Node target; //назначение
     private double length;//длина ребра
 
-    {
-        this.length = calculatingLength();
-    }
-
     public Edge(Node source, Node target) {
         this.source = source;
         this.target = target;
     }
 
-    private double calculatingLength() {
+    public double calculatingLength() {
         return Math.sqrt(Math.pow((source.x - target.x), 2) + Math.pow((source.y - target.y), 2));
     }
     

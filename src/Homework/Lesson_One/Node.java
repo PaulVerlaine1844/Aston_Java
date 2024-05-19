@@ -35,11 +35,11 @@ public class Node {
     }//если у блока нет выходных блоков он - конечный
 
 
-    public void addInputsBlock(Node node){
-        this.inputs.add(node);
+    public void addOutputsBlock(Node node){
+        this.outputs.add(node);
     }
-    public void addInputsBlock(ArrayList<Node> inputNodes){
-        this.inputs.addAll(inputNodes);
+    public void addOutputsBlock(ArrayList<Node> inputNodes){
+        this.outputs.addAll(inputNodes);
     }
 
     public int getBlockId() {
