@@ -1,4 +1,4 @@
-package Lesson_One;
+package Homework.Lesson_One;
 
 /*
 Класс описывает ребро графа
