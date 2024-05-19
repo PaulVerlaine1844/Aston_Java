@@ -1,2 +1,4 @@
-package Homework.Lesson_Two;public interface Flying {
+package Homework.Lesson_Two;
+
+public interface Flying {
 }
